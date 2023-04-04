@@ -10,6 +10,7 @@ using Newtonsoft.Json.Linq;
 namespace Isite.Controllers
 {
 
+
     [Route("api/isite/v1/configs")]
     [ApiController]
     public class ConfigController : ControllerBase
