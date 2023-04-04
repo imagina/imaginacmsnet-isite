@@ -1,4 +1,4 @@
-﻿using Core;
+﻿  using Core;
 using Core.Transformers;
 using Idata.Data.Entities;
 using Idata.Data.Entities.Isite;
@@ -10,9 +10,9 @@ using Newtonsoft.Json.Linq;
 namespace Isite.Controllers
 {
 
-
     [Route("api/isite/v1/configs")]
     [ApiController]
+        
     public class ConfigController : ControllerBase
     {
         private readonly ISettingRepository repository;
