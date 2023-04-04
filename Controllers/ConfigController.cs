@@ -12,7 +12,7 @@ namespace Isite.Controllers
 
     [Route("api/isite/v1/configs")]
     [ApiController]
-        
+        //test comment
     public class ConfigController : ControllerBase
     {
         private readonly ISettingRepository repository;
